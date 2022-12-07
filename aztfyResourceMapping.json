@@ -1,0 +1,52 @@
+{
+	"/subscriptions/e12ffbde-ddf4-4ac7-8aea-66e9e4419e23/resourceGroups/tomono-terraform/providers/Microsoft.Network/virtualNetworks/vnet-PRD-pf": {
+		"resource_id": "/subscriptions/e12ffbde-ddf4-4ac7-8aea-66e9e4419e23/resourceGroups/tomono-terraform/providers/Microsoft.Network/virtualNetworks/vnet-PRD-pf",
+		"resource_type": "azurerm_virtual_network",
+		"resource_name": "res-0"
+	},
+	"/subscriptions/e12ffbde-ddf4-4ac7-8aea-66e9e4419e23/resourceGroups/tomono-terraform/providers/Microsoft.Network/virtualNetworks/vnet-PRD-pf/subnets/GatewaySubnet": {
+		"resource_id": "/subscriptions/e12ffbde-ddf4-4ac7-8aea-66e9e4419e23/resourceGroups/tomono-terraform/providers/Microsoft.Network/virtualNetworks/vnet-PRD-pf/subnets/GatewaySubnet",
+		"resource_type": "azurerm_subnet",
+		"resource_name": "res-1"
+	},
+	"/subscriptions/e12ffbde-ddf4-4ac7-8aea-66e9e4419e23/resourceGroups/tomono-terraform/providers/Microsoft.Network/virtualNetworks/vnet-PRD-pf/subnets/snet-PRD-pf-customer-0001": {
+		"resource_id": "/subscriptions/e12ffbde-ddf4-4ac7-8aea-66e9e4419e23/resourceGroups/tomono-terraform/providers/Microsoft.Network/virtualNetworks/vnet-PRD-pf/subnets/snet-PRD-pf-customer-0001",
+		"resource_type": "azurerm_subnet",
+		"resource_name": "res-2"
+	},
+	"/subscriptions/e12ffbde-ddf4-4ac7-8aea-66e9e4419e23/resourceGroups/tomono-terraform/providers/Microsoft.Network/virtualNetworks/vnet-PRD-pf/subnets/snet-PRD-pf-customer-0002": {
+		"resource_id": "/subscriptions/e12ffbde-ddf4-4ac7-8aea-66e9e4419e23/resourceGroups/tomono-terraform/providers/Microsoft.Network/virtualNetworks/vnet-PRD-pf/subnets/snet-PRD-pf-customer-0002",
+		"resource_type": "azurerm_subnet",
+		"resource_name": "res-3"
+	},
+	"/subscriptions/e12ffbde-ddf4-4ac7-8aea-66e9e4419e23/resourceGroups/tomono-terraform/providers/Microsoft.Network/virtualNetworks/vnet-PRD-pf/subnets/snet-PRD-pf-customer-0003": {
+		"resource_id": "/subscriptions/e12ffbde-ddf4-4ac7-8aea-66e9e4419e23/resourceGroups/tomono-terraform/providers/Microsoft.Network/virtualNetworks/vnet-PRD-pf/subnets/snet-PRD-pf-customer-0003",
+		"resource_type": "azurerm_subnet",
+		"resource_name": "res-4"
+	},
+	"/subscriptions/e12ffbde-ddf4-4ac7-8aea-66e9e4419e23/resourceGroups/tomono-terraform/providers/Microsoft.Network/virtualNetworks/vnet-PRD-pf/subnets/snet-PRD-pf-daianaShared-0001": {
+		"resource_id": "/subscriptions/e12ffbde-ddf4-4ac7-8aea-66e9e4419e23/resourceGroups/tomono-terraform/providers/Microsoft.Network/virtualNetworks/vnet-PRD-pf/subnets/snet-PRD-pf-daianaShared-0001",
+		"resource_type": "azurerm_subnet",
+		"resource_name": "res-5"
+	},
+	"/subscriptions/e12ffbde-ddf4-4ac7-8aea-66e9e4419e23/resourceGroups/tomono-terraform/providers/Microsoft.Network/virtualNetworks/vnet-PRD-pf/subnets/snet-PRD-pf-ovpn-0001": {
+		"resource_id": "/subscriptions/e12ffbde-ddf4-4ac7-8aea-66e9e4419e23/resourceGroups/tomono-terraform/providers/Microsoft.Network/virtualNetworks/vnet-PRD-pf/subnets/snet-PRD-pf-ovpn-0001",
+		"resource_type": "azurerm_subnet",
+		"resource_name": "res-6"
+	},
+	"/subscriptions/e12ffbde-ddf4-4ac7-8aea-66e9e4419e23/resourceGroups/tomono-terraform/providers/Microsoft.Network/virtualNetworks/vnet-PRD-pf/subnets/snet-PRD-pf-shared-0001": {
+		"resource_id": "/subscriptions/e12ffbde-ddf4-4ac7-8aea-66e9e4419e23/resourceGroups/tomono-terraform/providers/Microsoft.Network/virtualNetworks/vnet-PRD-pf/subnets/snet-PRD-pf-shared-0001",
+		"resource_type": "azurerm_subnet",
+		"resource_name": "res-7"
+	},
+	"/subscriptions/e12ffbde-ddf4-4ac7-8aea-66e9e4419e23/resourceGroups/tomono-terraform/providers/Microsoft.Network/virtualNetworks/vnet-PRD-pf/subnets/snet-PRD-pf-zbxShared-0001": {
+		"resource_id": "/subscriptions/e12ffbde-ddf4-4ac7-8aea-66e9e4419e23/resourceGroups/tomono-terraform/providers/Microsoft.Network/virtualNetworks/vnet-PRD-pf/subnets/snet-PRD-pf-zbxShared-0001",
+		"resource_type": "azurerm_subnet",
+		"resource_name": "res-8"
+	},
+	"/subscriptions/e12ffbde-ddf4-4ac7-8aea-66e9e4419e23/resourceGroups/tomono-terraform/providers/Microsoft.Network/virtualNetworks/vnet-PRD-pf/subnets/snet_mariadb-PRD-pf-zbxShared-0001": {
+		"resource_id": "/subscriptions/e12ffbde-ddf4-4ac7-8aea-66e9e4419e23/resourceGroups/tomono-terraform/providers/Microsoft.Network/virtualNetworks/vnet-PRD-pf/subnets/snet_mariadb-PRD-pf-zbxShared-0001",
+		"resource_type": "azurerm_subnet",
+		"resource_name": "res-9"
+	}
+}
