@@ -1,12 +1,3 @@
-resource "azurerm_subnet" "res-1" {
-  address_prefixes     = ["10.10.255.0/24"]
-  name                 = "GatewaySubnet"
-  resource_group_name  = "tomono-terraform"
-  virtual_network_name = "vnet-PRD-pf"
-  depends_on = [
-    azurerm_virtual_network.res-0,
-  ]
-}
 resource "azurerm_subnet" "res-6" {
   address_prefixes     = ["10.10.240.0/24"]
   name                 = "snet-PRD-pf-ovpn-0001"
