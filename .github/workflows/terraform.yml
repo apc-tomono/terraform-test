@@ -47,6 +47,7 @@ name: 'Terraform'
 on:
   pull_request:
     branches: [ "main" ]
+    types: [opened, closed]
   workflow_dispatch:
 
 permissions:
