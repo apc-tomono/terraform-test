@@ -48,12 +48,12 @@ jobs:
 
     # Generates an execution plan for Terraform
     - name: Terraform Plan for West
-      run: terraform plan -input=false -var="location=japanwest" -var="resource_group_name=tomono-terraform-west"
+      run: terraform plan -input=false
       working-directory: ./env/west
 
       # On push to "main", build or change infrastructure according to Terraform configuration files
       # Note: It is recommended to set up a required "strict" status check in your repository for "Terraform Cloud". See the documentation on "strict" required status checks for more information: https://help.github.com/en/github/administering-a-repository/types-of-required-status-checks
     - name: Terraform Apply for West
       if: github.event.pull_request.merged == true || github.event_name == 'workflow_dispatch'
-      run: terraform apply -auto-approve -input=false -var="location=japanwest" -var="resource_group_name=tomono-terraform-west"
+      run: terraform apply -auto-approve -input=false
       working-directory: ./env/west
